@@ -5,6 +5,10 @@ Denna webbsida är skriven utan JavaScript och är menad att vara så lik en "kl
 
 Då denna sida är min första uppskattas konstruktiv kritik!
 
+## Disclaimer
+
+This project is hosted on GitHub Pages but is **not** endorsed by, affiliated with, or officially supported by GitHub, Inc. GitHub is a trademark of GitHub, Inc.
+
 ## License
 
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
