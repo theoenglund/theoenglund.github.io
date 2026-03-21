@@ -15,13 +15,25 @@
  * along with theoenglund.github.io.  If not, see <https://www.gnu.org/licenses/>.
  */
 nav a {
-    text-decoration: none;  /* Remove the underline */
-    color: #007FFF;           /* Default text color (black) */
-    transition: color 0.3s ease;  /* Smooth transition for color changes */
+    text-decoration: none; 
+    color: #007FFF;         
+    transition: color 0.3s ease; 
     text-decoration: underline;
 }
 
 nav a:hover {
-    color: #28a745;        /* Change to green on hover (Bootstrap green) */
-    text-decoration: underline;  /* Underline text on hover */
+    color: #28a745;        
+    text-decoration: underline; 
 }
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  text-align: center;     
+}
+
