@@ -1,1 +1,39 @@
 
+/*
+ * This file is part of theoenglund.github.io.
+ *
+ * theoenglund.github.io is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * theoenglund.github.io is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with theoenglund.github.io.  If not, see <https://www.gnu.org/licenses/>.
+ */
+nav a {
+    text-decoration: none; 
+    color: #007FFF;         
+    transition: color 0.3s ease; 
+    text-decoration: underline;
+}
+
+nav a:hover {
+    color: #28a745;        
+    text-decoration: underline; 
+}
+
+/*
+* Min nya style.css för att centrera innehållet
+*
+*/
+
+.index {
+  margin: 40px auto; 
+  padding: 40px;
+}
+
