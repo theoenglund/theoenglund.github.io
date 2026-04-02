@@ -13,44 +13,97 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 You should have received a copy of the GNU General Public License
 along with theoenglund.github.io. If not, see https://www.gnu.org/licenses/.
 -->
+
 <meta charset="UTF-8">
 <html lang="sv">
 <link rel="stylesheet" href="/assets/css/old_style.css">
 <title>Blogg - Theo Englund</title>
 
-<!--
-<h1>Blogg - Theo Englund</h1>
--->
-  
-<nav>
-  <ul>
-    <li><a href="index.html">Start</a></li>
-    <li><a href="about.html">Om mig/kort biografi</a></li>
-    <li><a href="blog.html">Blogg</a></li>
-    <li><a href="contact.html">Kontakta mig (gärna inte)</a></li>
-    <li><a href="links.html">Länkar/sidokarta</a></li>
-  </ul>
-</nav>
-    <h2>Info:</h2>
-    <h3>Du har anlänt till Theo Englunds (dvs. min) blogg. På denna sida kan du förvänta dig dåliga sporadiska kommentarer om saker som jag inte förstår mig på.</h3>
+<h1 style="font-size: 35px; text-align: center;">
+    Blogg - Theo Englund
+</h1>
 
-    <h2>Blogg:</h2>
-    
-<h3></h3>
-<p></p>
+<h3 style="font-size: 21; text-align: center;">Beskrivning:</h3>
+<p style="font-size: 19px; text-align: center;">En bra blogg innehåller viktig information. Det gör tyvärr inte denna. Min blogg är istället menad att samla några av mina tankar och idéer gällande teknik och annat. Här kan du även hitta några av mina äldre inlägg tills vidare. Använd gärna tabellen under för att sortera efter datum. Inläggen är sorterade efter år och månad. Har du några frågor om sidan finns sidan "Kontakta mig" i sidokartan.</p>
 
-<h3></h3>
-<p></p>
 
-<h3></h3>
-<p></p>
+<section id="archive-eller-tabell">
+    <h2>2026</h2>
+    <ul>
+        <li>
+            <strong>Mars</strong>
+            <ul>
+                <li><a href="#inlägg-1">Skapat sidan! (2026-03-14)</a></li>
+                <li><a href="#inlägg-2">Testar! (2026-03-14)</a></li>
+                <li><a href="#inlägg-3">Ny information (Mars 2026)</a></li>
+            </ul>
+	    <strong>April</strong>
+            <ul>
+           	<li><a href="#inlägg-4">Exempelinlägg (2026-04-02)</a></li>
+            </ul>
+        </li>
+    </ul>
+</section>
 
-  <marquee bgcolor="#FFFF00" style="font-weight: bold; border: 4px solid #000000; padding: 7px; font-size: 32px;">
-    Bloggen är under konstruktion! Vänligen se "Nyhetsarkiv" i sidokartan eller startsidan istället.
-  </marquee>
-  
-<p>
-  Copyright © 2026 Theo Englund. This work is licensed under the 
-  <a href="https://github.com/theoenglund/theoenglund.github.io/blob/main/LICENSE">GNU General Public License v3.0</a>. 
-  View source on <a href="https://github.com/theoenglund/theoenglund.github.io">GitHub</a>.
-</p>
+<session id="content">
+
+ <article id="inlägg-4>
+    <h4>Exempelinlägg</h4>
+    <p>Exempelinlägg</p>
+   </article>
+
+ <article id="inlägg-3">
+    <h4>Webbsidan är nu fullt fungerade! (2026-03-21)</h4>
+    <p>Jag har nu lagt ut sidan på theoenglund.github.io. Kommer att arbeta framöver för att förbättra utseendet på den och göra den lättare att navigera. Kontakta mig gärna om problem uppstår för dig med sidan.</p>
+  </article>
+
+  <article id="inlägg-2">
+    <h4>Testar! (2026-03-14)</h4>
+    <p>Sidan ser ut att fungera. Vänligen kontakta mig om du stöter på problem.</p>
+  </article>
+</section>
+
+
+ <article id="inlägg-1">
+    <h4>Skapat sidan! (2026-03-14)</h4>
+    <p>Skapat en enkel sida. Ingen aning vad jag skall "he" här. Får komma på det inom kort...</p>
+  </article>
+ 
+
+<div class="marquee">
+    <div class="marquee-content">
+        Du har nu nått slutet av min blogg! Vid frågor <a href="contact.html">kan du kontakta mig här.</a>
+    </div>
+</div>
+	
+    <style>
+        .marquee {
+            overflow: hidden;
+            white-space: nowrap;
+            background: #FFFF00;
+            border: 4px solid #000;
+            padding: 7px;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .marquee-content {
+            display: inline-block;
+            padding-left: 100%;
+            animation: marquee 18s linear infinite;
+        }
+        @keyframes marquee {
+            0% { transform: translateX(0%); }
+            100% { transform: translateX(-100%); }
+        }
+    </style>
+
+<footer style="margin-top: 20px; border-top: 1px solid #ccc; padding-top: 10px;">
+  <p>
+    © 2026 Theo Englund. Code licensed under 
+    <a href="LICENSE">GPLv3</a>. 
+    View source on <a href="https://github.com">GitHub</a>.
+  </p>
+</footer>
+
+</body>
+</html>
