@@ -1,0 +1,59 @@
+
+
+<!--
+This file is part of theoenglund.github.io.
+
+theoenglund.github.io is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+theoenglund.github.io is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+You should have received a copy of the GNU General Public License
+along with theoenglund.github.io. If not, see https://www.gnu.org/licenses/.
+-->
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <title>Välkommen till Theo Englunds webbsida</title>
+    <meta name="description" content="En enkel webbsida för att dela information och projekt.">
+    <link rel="stylesheet" href="/assets/css/new_style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  
+<table border="1" cellpadding="5" bgcolor="#000000" style="color: #00FF00;">
+  <tr><td><b>Antalet sekunder sedan 1 januari 1970: <span id="sekunder-sedan-epoken"></span></td></tr>
+  <tr><td><b>(Även om jag försökt att göra "klockan" så exakt som jag kan finns det en möjlighet att den inte fungerar eller visar fel tid)</td></tr>
+</table>
+
+
+<script>
+  const el = document.getElementById('sekunder-sedan-epoken');
+  function uppdateraSekundersedanEpok() {
+    const sek = Math.floor(Date.now() / 1000);
+    el.textContent = sek.toLocaleString('sv-SE');
+  } // Uppdaterar sekunder sedan epoken med '500'. Skriptet sänder antalet sekunder till <table> i <body>.
+  uppdateraSekundersedanEpok();
+  setInterval(uppdateraSekundersedanEpok, 500);
+</script>
+
+<p>Denna sida använder JavaScript. Se slutet av sidan för en länk till källkoden.</p> 
+  
+  
+<footer style="margin-top: 20px; border-top: 1px solid #ccc; padding-top: 10px;">
+  <p>
+    © 2026 Theo Englund. Code licensed under 
+    <a href="LICENSE">GPLv3</a>. 
+    View source on <a href="https://github.com">GitHub</a>.
+  </p>
+</footer>
+
+</div class="index">
+</body>
+</html>
