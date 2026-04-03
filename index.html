@@ -152,7 +152,7 @@ along with theoenglund.github.io. If not, see https://www.gnu.org/licenses/.
     const sek = Math.floor(Date.now() / 1000);
     el.textContent = sek.toLocaleString('sv-SE');
   } // Uppdaterar sekunder sedan epoken med '500'. Skriptet sänder antalet sekunder till <h5> med info över i <body>.
-  uppdateraSekunder();
+  uppdateraSekundersedanEpok();
   setInterval(uppdateraSekundersedanEpok, 500);
 </script>
 	
