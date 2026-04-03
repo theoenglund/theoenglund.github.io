@@ -108,12 +108,9 @@ along with theoenglund.github.io. If not, see https://www.gnu.org/licenses/.
 <!-- Här finns en länk till mitt RSS-Feed -->
 <link rel="alternate" type="application/rss+xml" title="RSS-feed för Theo Englund" href="feed.xml" />
 
-<h3>Antalet sekunder sedan 1 januari 1970: <span id="sekunder-sedan-epoken"></span></h3>
-<h6>(Klockan är inte helt korrekt men är menad att spegla antalet sekunder huvudsakligen korrekt)</h6>
-	
 	
 <h4><a href="/other/ideas.html">Här </a>har jag samlat några projekt eller sidor om ämnen som intresserar mig.</h2>
-
+<h4><a href="/other/clock.html">Här </a>finns en "mer eller mindre" exakt klicka som räknar antalet sekunder sedan den 1 januari 1970 (d.v.s. "Unix time")</h2>
 
 	
 <section id="links">
@@ -146,15 +143,6 @@ along with theoenglund.github.io. If not, see https://www.gnu.org/licenses/.
 <li>Skapa en fungerande sökfunktion: Jag har funderat på att skriva ett skript i Perl för att lösa detta även om jag är osäker på hur detta kan komma att fungera i praktiken. En möjlig lösning kan vara att bygga den i JavaScript då sidan endast kan innehålla HTML/CSS/JS.</li>
 </details>
 
-<script>
-  const el = document.getElementById('sekunder-sedan-epoken');
-  function uppdateraSekundersedanEpok() {
-    const sek = Math.floor(Date.now() / 1000);
-    el.textContent = sek.toLocaleString('sv-SE');
-  } // Uppdaterar sekunder sedan epoken med '500'. Skriptet sänder antalet sekunder till <h5> med info över i <body>.
-  uppdateraSekundersedanEpok();
-  setInterval(uppdateraSekundersedanEpok, 500);
-</script>
 	
 <p>Om du har några idéer för att förbättra sidan finns källan längst ner på sidan. Att skapa en sökfunktion och att förbättra kvaliteten av sidan är av hög prioritet.</p>
 
