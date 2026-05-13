@@ -39,14 +39,11 @@ table a {
 
 body {
   margin: 0;
+  background-color: #121212;
+  color: #f5f5f5;
 }
 
 .index {
   margin: 30px auto; 
   padding: 30px;
-}
-
-body {
-  background-color: #121212;
-  color: #f5f5f5;
 }
