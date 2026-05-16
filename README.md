@@ -5,6 +5,8 @@ Denna webbsida är skriven utan onödig JavaScript och är menad att vara så li
 
 Då denna sida är min första uppskattas konstruktiv kritik!
 
+(Just nu migrerar jag denna sida till Codeberg)
+
 ## Disclaimer
 
 This project is hosted on GitHub Pages but is **not** endorsed by, affiliated with, or officially supported by GitHub, Inc. GitHub is a trademark of GitHub, Inc.
