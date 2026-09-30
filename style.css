@@ -7,10 +7,12 @@ margin: 40px auto;
 padding: 0 20px;
 }
 /* hover */
-a:not(footer a):hover {
-    color: #000;
-    background: #ffd966;
-    text-decoration: none;
+@media (hover: hover) and (pointer: fine) {
+    a:not(footer a):hover {
+        color: #000;
+        background: #ffd966;
+        text-decoration: none;
+    }
 }
 /* for phones and other devices */
 @media (max-width: 600px) {
