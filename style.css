@@ -1,0 +1,27 @@
+body {
+background: #F5EFDA;
+color: #1A1916;
+font-family: monospace;
+max-width: 600px;
+margin: 40px auto;  
+padding: 0 20px;
+}
+/* for phones and other devices */
+@media (max-width: 600px) {
+    body {
+        margin: 20px auto;
+        padding: 0 15px;
+    }
+
+    nav {
+        font-size: 12px;
+    }
+
+    nav table {
+        width: 100%;
+    }
+
+    nav td {
+        line-height: 2;
+    }
+}
