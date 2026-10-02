@@ -1,3 +1,7 @@
+---
+title: Theo Englund - blogg
+---
+
 <!DOCTYPE html>
 <html lang=sv>
 <head>
@@ -32,8 +36,16 @@
 
     <hr>
 
-    <p>Bloggen är tom för tillfället...</p>
-   
+    <ul class="post-list">
+    {% for post in site.posts %}
+    <li>
+        <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>
+    {% else %}
+    <li>Bloggen är tom för tillfället...</li>
+    {% endfor %}
+    </ul>
     <!--
 
     <ul class="post-list">
