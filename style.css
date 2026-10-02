@@ -14,7 +14,6 @@ padding: 0 20px;
         text-decoration: none;
     }
 }
-/* for phones and other devices */
 @media (max-width: 600px) {
     body {
         margin: 20px auto;
