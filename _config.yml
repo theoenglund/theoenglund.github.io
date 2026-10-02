@@ -1,5 +1,6 @@
 title: Theo Englund
 description: Theo Englunds personliga webbsida
 url: "https://theoe.se"
+future: true
 
 permalink: /blog/:title/
