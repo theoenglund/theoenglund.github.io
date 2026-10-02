@@ -1,5 +1,6 @@
 ---
 title: Theo Englund - blogg
+permalink: /blog.html
 ---
 
 <!DOCTYPE html>
