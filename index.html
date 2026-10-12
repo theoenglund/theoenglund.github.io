@@ -1,6 +1,6 @@
 ---
-title: Theo Englund - blogg
-permalink: /blog.html
+title: Theo Englund
+permalink: /index.html
 ---
 
 <!DOCTYPE html>
@@ -73,8 +73,8 @@ permalink: /blog.html
 	Då och då uppdaterar jag sidan med nytt material. Kanske hittar du det här? 
     {% assign post = site.posts.first %}
     {% if post %}
-        <span>{{ post.date | date: "%Y-%m-%d" }}</span>
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <u><span>{{ post.date | date: "%Y-%m-%d" }}</span>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a></u>
     {% else %}
         Bloggen är tom för tillfället...
     {% endif %}
