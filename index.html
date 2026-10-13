@@ -74,8 +74,7 @@ permalink: /index.html
 	Då och då uppdaterar jag sidan med nytt material. Kanske hittar du det här?<br>
     {% assign post = site.posts.first %}
     {% if post %}
-        <u><span>{{ post.date | date: "%Y-%m-%d" }}</span>
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a></u>
+        <a href="{{ post.url | relative_url }}">{{ post.date | date: "%Y-%m-%d" }}{{ post.title }}</a>
     {% else %}
         Bloggen är tom för tillfället...
     {% endif %}
@@ -89,7 +88,7 @@ permalink: /index.html
 
     <footer>
         <hr>
-        <p>senast uppdaterad: 2026-10-02</p>
+        <p>senast uppdaterad: 2026-10-13</p>
         <p>Theo Englund &copy; 2026</p>
 		<p>Skapad med GNU Emacs</p>
         <!-- explain the state of the site -->
